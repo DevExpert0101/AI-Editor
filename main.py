@@ -8,7 +8,7 @@ from pydantic import BaseModel
 app = FastAPI()
 
 # Setting the API key
-openai.api_key = "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"
+openai.api_key = ""
 
 
 class Prompt(BaseModel):
